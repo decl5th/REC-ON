@@ -1,0 +1,15 @@
+{
+  "originHash" : "7185d8cb67348b3a837d230141c8eb2b47d9f77387f99d79aebe1ec710969c67",
+  "pins" : [
+    {
+      "identity" : "transcoding",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/finnvoor/Transcoding.git",
+      "state" : {
+        "revision" : "3af0f4fb383cdd4d66f9c0ccc4906adb4d686283",
+        "version" : "0.0.2"
+      }
+    }
+  ],
+  "version" : 3
+}
