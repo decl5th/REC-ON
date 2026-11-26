@@ -2,6 +2,17 @@
 
 혼자 촬영할 때, 카메라를 세워 둔 자리로 돌아가지 않고도 구도를 확인할 수 있을까요? REC:ON은 같은 Wi-Fi에 연결한 두 대의 iPhone 또는 iPad를 **촬영용 카메라(Camera)**와 **손에 들고 보는 모니터(Monitor)**로 나눠 쓰는 학습용 프로토타입입니다.
 
+## 디자인팀 하이파이 시안 · 목표 화면
+
+Camera는 촬영 장면을 크게 보여주고, Monitor는 구도를 보면서 녹화를 요청할 수 있게 설계했습니다. 아래 두 장은 역할별로 **서로 다른 순간**을 그린 시안이며, 현재 앱의 실행 화면은 아닙니다.
+
+| Camera · 녹화 중 (`REC`) | Monitor · 녹화 대기 (`STBY`) |
+| :---: | :---: |
+| [<img src="docs/design/camera-rec.png" width="240" alt="Camera 디자인 시안: 촬영 장면 위로 REC 표시와 경과 시간이 보이는 화면">](docs/design/camera-rec.png) | [<img src="docs/design/monitor-stby.png" width="240" alt="Monitor 디자인 시안: 수신 영상 아래에 STBY 상태와 녹화 시작 버튼이 있는 화면">](docs/design/monitor-stby.png) |
+| 촬영 구도를 가리지 않도록 녹화 시간과 송출 상태를 화면 가장자리에 표시합니다. | 미리보기 아래에서 Camera가 확인한 상태를 읽고 녹화 시작을 요청합니다. |
+
+## 실제 실행 화면 · iPhone 시뮬레이터
+
 | Camera · 촬영하는 기기 | Monitor · 구도를 확인하는 기기 |
 | :---: | :---: |
 | [<img src="docs/screenshots/camera.png" width="240" alt="Camera 실행 화면: 연결됨, STBY, 명령 대기">](docs/screenshots/camera.png) | [<img src="docs/screenshots/monitor.png" width="240" alt="Monitor 실행 화면: 연결됨, STBY, 녹화 시작 요청 버튼">](docs/screenshots/monitor.png) |
