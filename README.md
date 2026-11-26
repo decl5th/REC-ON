@@ -1,6 +1,14 @@
-# REC:ON | 두 기기로 쓰는 원격 뷰파인더
+# <img src="C5RECON/Assets.xcassets/AppIcon.appiconset/RECOn-AppIcon-Default-1024.png" width="56" alt="REC:ON 앱 아이콘"> REC:ON | 두 기기로 쓰는 원격 뷰파인더
 
 혼자 촬영할 때, 카메라를 세워 둔 자리로 돌아가지 않고도 구도를 확인할 수 있을까요? REC:ON은 같은 Wi-Fi에 연결한 두 대의 iPhone 또는 iPad를 **촬영용 카메라(Camera)**와 **손에 들고 보는 모니터(Monitor)**로 나눠 쓰는 학습용 프로토타입입니다.
+
+| Camera · 촬영하는 기기 | Monitor · 구도를 확인하는 기기 |
+| :---: | :---: |
+| [<img src="docs/screenshots/camera.png" width="240" alt="Camera 실행 화면: 연결됨, STBY, 명령 대기">](docs/screenshots/camera.png) | [<img src="docs/screenshots/monitor.png" width="240" alt="Monitor 실행 화면: 연결됨, STBY, 녹화 시작 요청 버튼">](docs/screenshots/monitor.png) |
+
+두 iPhone 시뮬레이터가 연결된 직후의 실제 화면입니다. `STBY`는 녹화 대기를 뜻하며, 시뮬레이터에는 카메라 입력이 없어 미리보기 영역이 비어 있습니다.
+
+## 주요 기능
 
 | 주요 기능 | Camera · 촬영하는 기기 | Monitor · 확인하는 기기 |
 | --- | --- | --- |
